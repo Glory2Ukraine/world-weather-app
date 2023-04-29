@@ -1,0 +1,113 @@
+.container {
+  width: 600px;
+  height: 800px;
+  margin: auto;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  background: linear-gradient(
+    #82aae3 10%,
+    #91d8e4 20%,
+    #bfeaf5 30%,
+    #eafdfc 40%
+  );
+}
+
+form {
+  padding: 10px 15px 0 15px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+}
+
+.city-and-country {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #f6aa1c;
+  padding: 20px;
+}
+
+.day-and-time {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  color: #7b8fa1;
+  padding: 20px;
+}
+
+ul.specifications {
+  list-style: none;
+  font-family: "Roboto Slab", serif;
+  color: #7b8fa1;
+  font-size: 16px;
+  line-height: 1.3;
+  padding: 0 25px;
+}
+
+.today-icon {
+  position: relative;
+  top: -15px;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+.today-temperature {
+  font-family: "Roboto Slab", serif;
+  color: #98acbe;
+  font-size: 50px;
+}
+
+.units {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500px;
+  top: -21px;
+}
+
+a {
+  text-decoration: none;
+  color: #82c3ec;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.weekdays {
+  font-family: "PT Mono", monospace;
+  color: #f6aa1c;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.weather-icons {
+  text-align: center;
+}
+
+.weekdays-temperature {
+  text-align: center;
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7b8fa1;
+}
+
+.weeknights-temperature {
+  text-align: center;
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+  color: #7b8fa1;
+}
