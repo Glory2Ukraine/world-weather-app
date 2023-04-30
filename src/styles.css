@@ -1,5 +1,5 @@
 .container {
-  width: 600px;
+  width: 800px;
   height: 800px;
   margin: auto;
 }
@@ -101,7 +101,7 @@ a:hover {
   color: #f6aa1c;
   text-align: center;
   font-size: 20px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .weather-icons {
