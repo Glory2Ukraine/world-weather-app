@@ -45,6 +45,7 @@ form {
   font-family: "Roboto Slab", serif;
   font-size: 20px;
   color: #7b8fa1;
+  text-transform: capitalize;
   padding: 20px;
   padding-top: 0%;
 }

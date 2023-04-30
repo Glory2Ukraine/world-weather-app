@@ -39,7 +39,7 @@ function displayWeather(response) {
     response.data.wind.speed
   );
   document.querySelector("#conditions").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
 }
 
 function search(city) {
