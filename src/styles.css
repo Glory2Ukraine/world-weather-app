@@ -32,7 +32,7 @@ form {
   width: 100%;
 }
 
-.city-and-country {
+.city {
   font-family: "Roboto Slab", serif;
   font-size: 30px;
   font-weight: 700;
@@ -72,14 +72,13 @@ ul.specifications {
 .today-icon {
   position: relative;
   top: -15px;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .today-temperature {
   font-family: "Roboto Slab", serif;
   color: #98acbe;
   font-size: 50px;
-  padding: 0;
 }
 
 .units .active {
