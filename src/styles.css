@@ -132,3 +132,9 @@ a:hover {
   font-size: 18px;
   color: #7b8fa1;
 }
+
+small {
+  margin: 0 90px;
+  font-size: 80%;
+  font-weight: 400;
+}
