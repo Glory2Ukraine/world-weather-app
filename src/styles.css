@@ -83,6 +83,15 @@ ul.specifications {
   padding: 0;
 }
 
+.units .active {
+  color: #7b8fa1;
+  cursor: default;
+}
+
+.units .active:hover {
+  text-decoration: none;
+}
+
 .units {
   position: relative;
   font-size: 20px;
