@@ -64,7 +64,7 @@ ul.specifications {
   list-style: none;
   font-family: "Roboto Slab", serif;
   color: #7b8fa1;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.3;
   padding: 0;
 }
@@ -95,6 +95,7 @@ ul.specifications {
   font-size: 20px;
   font-weight: 500px;
   top: -21px;
+  opacity: 0.5;
 }
 
 a {
@@ -106,7 +107,13 @@ a:hover {
   text-decoration: underline;
 }
 
-.weekdays {
+.weekly-weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weather-forecast-day {
   font-family: "PT Mono", monospace;
   color: #f6aa1c;
   text-align: center;
@@ -114,23 +121,24 @@ a:hover {
   margin-top: 15px;
 }
 
-.weather-icons {
-  text-align: center;
-}
-
 .weekdays-temperature {
-  text-align: center;
   font-family: "PT Mono", monospace;
   font-size: 18px;
   font-weight: bold;
   color: #7b8fa1;
 }
 
-.weeknights-temperature {
-  text-align: center;
+.weather-forecast-temperature-max {
   font-family: "PT Mono", monospace;
-  font-size: 18px;
-  color: #7b8fa1;
+  font-size: 16px;
+  color: #171a1c;
+}
+
+.weather-forecast-temperature-min {
+  font-family: "PT Mono", monospace;
+  font-size: 16px;
+  color: #171a1c;
+  opacity: 0.5;
 }
 
 small {

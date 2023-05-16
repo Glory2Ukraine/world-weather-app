@@ -40,9 +40,7 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `<div class="col-2">
-            <div class="weather-forecast-date">${formatDay(
-              forecastDay.dt
-            )}</div>
+            <div class="weather-forecast-day">${formatDay(forecastDay.dt)}</div>
         <img src="http://openweathermap.org/img/wn/${
           forecastDay.weather[0].icon
         }@2x.png" alt="" width="50" />
@@ -107,31 +105,6 @@ function handleSubmit(event) {
   let city = document.querySelector("#city-input").value;
   search(city);
 }
-
-function displayFahrenheitTemperature(event) {
-  event.preventDefault();
-  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  unitsCelsius.classList.remove("active");
-  unitsFahrenheit.classList.add("active");
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
-}
-
-function displayCelsiusTemperature(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  unitsCelsius.classList.add("active");
-  unitsFahrenheit.classList.remove("active");
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
-}
-
-let celsiusTemperature = null;
-
-let unitsFahrenheit = document.querySelector("#units-fahrenheit");
-unitsFahrenheit.addEventListener("click", displayFahrenheitTemperature);
-
-let unitsCelsius = document.querySelector("#units-celsius");
-unitsCelsius.addEventListener("click", displayCelsiusTemperature);
 
 let form = document.querySelector("#search-city");
 form.addEventListener("submit", handleSubmit);
