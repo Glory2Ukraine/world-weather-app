@@ -1,5 +1,9 @@
+body {
+  background-color: #406882;
+}
+
 .container {
-  width: 800px;
+  width: 600px;
   height: 800px;
   margin: auto;
 }
@@ -9,13 +13,9 @@
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
+  box-shadow: 0 0 6px 2px #fff, 0 0 20px 6px #fff, 0 0 20px;
   max-width: 600px;
-  background: linear-gradient(
-    #82aae3 10%,
-    #91d8e4 20%,
-    #bfeaf5 30%,
-    #eafdfc 40%
-  );
+  background-color: #b1d0e0;
 }
 
 form {
@@ -36,7 +36,7 @@ form {
   font-family: "Roboto Slab", serif;
   font-size: 30px;
   font-weight: 700;
-  color: #f6aa1c;
+  color: #f96666;
   padding: 20px;
   padding-bottom: 0%;
 }
@@ -52,12 +52,20 @@ form {
   text-transform: capitalize;
 }
 
+.humidity {
+  color: #f96666;
+}
+
+.wind {
+  color: #f96666;
+}
+
 .day-and-time {
   font-family: "Roboto Slab", serif;
   font-size: 30px;
   text-align: right;
   color: #7b8fa1;
-  padding: 20px 15px;
+  padding: 20px;
 }
 
 ul.specifications {
@@ -65,7 +73,7 @@ ul.specifications {
   font-family: "Roboto Slab", serif;
   color: #7b8fa1;
   font-size: 20px;
-  line-height: 1.3;
+  line-height: 1.5;
   padding: 0;
 }
 
@@ -77,7 +85,7 @@ ul.specifications {
 
 .today-temperature {
   font-family: "Roboto Slab", serif;
-  color: #98acbe;
+  color: #7b8fa1;
   font-size: 50px;
 }
 
@@ -115,9 +123,10 @@ a:hover {
 
 .weather-forecast-day {
   font-family: "PT Mono", monospace;
-  color: #f6aa1c;
+  color: #f96666;
   text-align: center;
   font-size: 20px;
+  font-weight: 500;
   margin-top: 15px;
 }
 
@@ -131,6 +140,7 @@ a:hover {
 .weather-forecast-temperature-max {
   font-family: "PT Mono", monospace;
   font-size: 16px;
+  font-weight: 500;
   color: #171a1c;
 }
 
