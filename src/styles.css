@@ -1,5 +1,5 @@
 body {
-  background-color: #406882;
+  background-color: #f9f7fe;
 }
 
 .container {
@@ -13,9 +13,8 @@ body {
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
-  box-shadow: 0 0 6px 2px #fff, 0 0 15px 6px #fff, 0 0 15px;
   max-width: 600px;
-  background-color: #b1d0e0;
+  background-color: white;
 }
 
 form {
@@ -25,6 +24,7 @@ form {
 .form-control {
   display: block;
   width: 100%;
+  background-color: #f9f7fe;
 }
 
 .btn {
@@ -157,4 +157,5 @@ footer {
   font-weight: 400;
   font-family: monospace;
   color: #abb8c4;
+  text-align: center;
 }
