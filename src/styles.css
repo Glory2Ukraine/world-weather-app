@@ -1,5 +1,8 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url("/images/city.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -9,12 +12,11 @@ body {
 }
 
 .weather-app {
-  border: 1px solid #dadde1;
+  border: 1px solid white;
   padding: 15px;
-  margin: 20px auto;
+  margin: 50px auto;
   border-radius: 10px;
-  max-width: 600px;
-  background-color: white;
+  max-width: 800px;
 }
 
 form {
@@ -24,7 +26,6 @@ form {
 .form-control {
   display: block;
   width: 100%;
-  background-color: #f9f7fe;
 }
 
 .btn {
@@ -148,7 +149,7 @@ a:hover {
   font-family: "PT Mono", monospace;
   font-size: 16px;
   color: #171a1c;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 footer {
@@ -156,6 +157,6 @@ footer {
   font-size: 90%;
   font-weight: 400;
   font-family: monospace;
-  color: #abb8c4;
+  color: white;
   text-align: center;
 }
